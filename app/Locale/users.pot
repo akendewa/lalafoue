@@ -1,0 +1,697 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-05-17 16:04+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller\AppUsersController.php:13
+msgid "Create an account on"
+msgstr ""
+
+#: Controller\AppUsersController.php:18
+msgid "Sign in to your account"
+msgstr ""
+
+#: Controller\AppUsersController.php:23
+#: Plugin\users\View\Users\request_password_change.ctp:13
+msgid "Forgot your password?"
+msgstr ""
+
+#: Controller\AppUsersController.php:28
+msgid "Request new password"
+msgstr ""
+
+#: Plugin\users\Controller\UserDetailsController.php:59;147
+msgid "Invalid Detail."
+msgstr ""
+
+#: Plugin\users\Controller\UserDetailsController.php:81
+msgid "Saved"
+msgstr ""
+
+#: Plugin\users\Controller\UserDetailsController.php:102
+msgid "%s user details saved"
+msgstr ""
+
+#: Plugin\users\Controller\UserDetailsController.php:120;208
+msgid "Invalid id for Detail"
+msgstr ""
+
+#: Plugin\users\Controller\UserDetailsController.php:124;212
+msgid "User Detail deleted"
+msgstr ""
+
+#: Plugin\users\Controller\UserDetailsController.php:162;186
+msgid "The Detail has been saved"
+msgstr ""
+
+#: Plugin\users\Controller\UserDetailsController.php:165;189
+msgid "The Detail could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin\users\Controller\UserDetailsController.php:181
+msgid "Invalid Detail"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:201
+msgid "Profile saved."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:203
+msgid "Could not save your profile."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:238
+msgid "Invalid User."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:251
+msgid "The User has been saved"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:266
+msgid "User saved"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:289
+msgid "User deleted"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:291
+#: Plugin\users\Model\User.php:794
+msgid "Invalid User"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:313
+msgid "You are already registered and logged in!"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:321
+#: Plugin\users\Test\Case\Controller\UsersControllerTest.php:251
+msgid "Your account has been created. You should receive an e-mail shortly to authenticate your account. Once validated you will be able to login."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:326
+#: Plugin\users\Test\Case\Controller\UsersControllerTest.php:262
+msgid "Your account could not be created. Please, try again."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:346
+msgid "%s you have successfully logged in"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:358
+#: Plugin\users\Test\Case\Controller\UsersControllerTest.php:228
+msgid "Invalid e-mail / password combination.  Please try again"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:420
+msgid "%s you have successfully logged out"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:439
+#: Plugin\users\Test\Case\Controller\UsersControllerTest.php:275
+msgid "Your e-mail has been validated!"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:461
+msgid "The url you accessed is not longer valid"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:470
+msgid "Your password was sent to your registered email account"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:474
+msgid "There was an error verifying your account. Please check the email you were sent, and retry the verification link."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:490;594
+msgid "Password Reset"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:507
+msgid "Password changed."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:566
+msgid "Account verification"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:618
+msgid "%s has been sent an email with instruction to reset their password."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:622
+msgid "You should receive an email with further instructions shortly"
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:626
+msgid "No user was found with that email."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:673
+msgid "Invalid password reset token, try again."
+msgstr ""
+
+#: Plugin\users\Controller\UsersController.php:678
+msgid "Password changed, you can now login with your new password."
+msgstr ""
+
+#: Plugin\users\Model\User.php:158;432
+msgid "The passwords are not equal."
+msgstr ""
+
+#: Plugin\users\Model\User.php:160
+msgid "Invalid password."
+msgstr ""
+
+#: Plugin\users\Model\User.php:189;192;195
+msgid "Invalid date"
+msgstr ""
+
+#: Plugin\users\Model\User.php:286
+#: Plugin\users\Test\Case\Controller\UsersControllerTest.php:279
+msgid "Invalid token, please check the email you were sent, and retry the verification link."
+msgstr ""
+
+#: Plugin\users\Model\User.php:291
+msgid "The token has expired."
+msgstr ""
+
+#: Plugin\users\Model\User.php:390
+msgid "This Email Address exists but was never validated."
+msgstr ""
+
+#: Plugin\users\Model\User.php:392
+msgid "This Email Address does not exist in the system."
+msgstr ""
+
+#: Plugin\users\Model\User.php:476
+msgid "$this->data['"
+msgstr ""
+
+#: Plugin\users\Model\User.php:519
+msgid "The user does not exist."
+msgstr ""
+
+#: Plugin\users\Model\User.php:576
+msgid "Please enter your email address."
+msgstr ""
+
+#: Plugin\users\Model\User.php:586
+msgid "The email address does not exist in the system"
+msgstr ""
+
+#: Plugin\users\Model\User.php:591
+msgid "Your account is already authenticaed."
+msgstr ""
+
+#: Plugin\users\Model\User.php:596
+msgid "Your account is disabled."
+msgstr ""
+
+#: Plugin\users\Test\Case\Controller\UsersControllerTest.php:54
+msgid "Sorry, but you need to login to access this location."
+msgstr ""
+
+#: Plugin\users\Test\Case\Controller\UsersControllerTest.php:211
+msgid "adminuser you have successfully logged in"
+msgstr ""
+
+#: Plugin\users\Test\Case\Controller\UsersControllerTest.php:291
+msgid "testuser you have successfully logged out"
+msgstr ""
+
+#: Plugin\users\View\Elements\Users\admin_sidebar.ctp:3
+#: Plugin\users\View\Elements\Users\sidebar.ctp:7
+#: View\Layouts\default.ctp:73
+msgid "Logout"
+msgstr ""
+
+#: Plugin\users\View\Elements\Users\admin_sidebar.ctp:4
+#: Plugin\users\View\Elements\Users\sidebar.ctp:8
+msgid "My Account"
+msgstr ""
+
+#: Plugin\users\View\Elements\Users\admin_sidebar.ctp:6
+msgid "Add Users"
+msgstr ""
+
+#: Plugin\users\View\Elements\Users\admin_sidebar.ctp:7
+#: Plugin\users\View\Elements\Users\sidebar.ctp:12
+#: Plugin\users\View\UserDetails\add.ctp:28
+#: Plugin\users\View\UserDetails\admin_add.ctp:28
+#: Plugin\users\View\UserDetails\admin_edit.ctp:30
+#: Plugin\users\View\UserDetails\admin_index.ctp:73
+#: Plugin\users\View\UserDetails\admin_view.ctp:58
+#: Plugin\users\View\UserDetails\view.ctp:59
+msgid "List Users"
+msgstr ""
+
+#: Plugin\users\View\Elements\Users\admin_sidebar.ctp:9
+msgid "Frontend"
+msgstr ""
+
+#: Plugin\users\View\Elements\Users\sidebar.ctp:4
+#: Plugin\users\View\Users\login.ctp:13
+#: View\Layouts\default.ctp:84
+#: View\Users\login.ctp:18
+msgid "Login"
+msgstr ""
+
+#: Plugin\users\View\Elements\Users\sidebar.ctp:5
+msgid "Register an account"
+msgstr ""
+
+#: Plugin\users\View\Elements\Users\sidebar.ctp:9
+msgid "Change password"
+msgstr ""
+
+#: Plugin\users\View\Emails\text\account_verification.ctp:12
+msgid "Hello %s,"
+msgstr ""
+
+#: Plugin\users\View\Emails\text\account_verification.ctp:14
+msgid "to validate your account, you must visit the URL below within 24 hours"
+msgstr ""
+
+#: Plugin\users\View\Emails\text\new_password.ctp:12
+msgid "Your password has been reset"
+msgstr ""
+
+#: Plugin\users\View\Emails\text\new_password.ctp:13
+msgid "Please login using this password and change your password"
+msgstr ""
+
+#: Plugin\users\View\Emails\text\new_password.ctp:15
+msgid "Your new password is: %s"
+msgstr ""
+
+#: Plugin\users\View\Emails\text\password_reset_request.ctp:12
+msgid "A request to reset your password was sent. To change your password click the link below."
+msgstr ""
+
+#: Plugin\users\View\UserDetails\add.ctp:15
+#: Plugin\users\View\UserDetails\admin_add.ctp:15
+msgid "Add User Detail"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\add.ctp:23
+#: Plugin\users\View\UserDetails\admin_add.ctp:23
+#: Plugin\users\View\UserDetails\index.ctp:27
+#: Plugin\users\View\Users\add.ctp:32
+#: Plugin\users\View\Users\change_password.ctp:26
+#: Plugin\users\View\Users\edit.ctp:25
+#: Plugin\users\View\Users\login.ctp:29
+#: Plugin\users\View\Users\request_password_change.ctp:22
+#: Plugin\users\View\Users\reset_password.ctp:14
+#: View\Users\edit.ctp:25
+msgid "Submit"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\add.ctp:27
+#: Plugin\users\View\UserDetails\admin_add.ctp:27
+#: Plugin\users\View\UserDetails\admin_edit.ctp:29
+#: Plugin\users\View\UserDetails\admin_view.ctp:56
+#: Plugin\users\View\UserDetails\view.ctp:57
+msgid "List Details"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\add.ctp:29
+#: Plugin\users\View\UserDetails\admin_add.ctp:29
+#: Plugin\users\View\UserDetails\admin_edit.ctp:31
+#: Plugin\users\View\UserDetails\admin_index.ctp:74
+#: Plugin\users\View\UserDetails\admin_view.ctp:59
+#: Plugin\users\View\UserDetails\view.ctp:60
+msgid "New User"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_edit.ctp:15
+#: Plugin\users\View\UserDetails\edit.ctp:15
+msgid "Edit User Detail"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_edit.ctp:28
+#: Plugin\users\View\UserDetails\admin_index.ctp:63
+#: Plugin\users\View\Users\admin_index.ctp:60
+#: Plugin\users\View\Users\search.ctp:52
+#: View\Users\search.ctp:52
+msgid "Delete"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_edit.ctp:28
+#: Plugin\users\View\UserDetails\admin_index.ctp:63
+#: Plugin\users\View\UserDetails\admin_view.ctp:55
+#: Plugin\users\View\UserDetails\view.ctp:56
+#: Plugin\users\View\Users\admin_index.ctp:60
+#: Plugin\users\View\Users\search.ctp:55
+#: View\Users\search.ctp:55
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_index.ctp:13
+msgid "User Details"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_index.ctp:16
+#: Plugin\users\View\Users\index.ctp:17
+#: Plugin\users\View\Users\search.ctp:27
+#: View\Users\search.ctp:27
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_index.ctp:28
+#: Plugin\users\View\Users\admin_index.ctp:31
+#: Plugin\users\View\Users\index.ctp:25
+#: Plugin\users\View\Users\search.ctp:35
+#: View\Users\search.ctp:35
+msgid "Actions"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_index.ctp:61
+#: Plugin\users\View\Users\admin_index.ctp:58
+#: Plugin\users\View\Users\index.ctp:39
+#: Plugin\users\View\Users\search.ctp:49
+#: View\Users\search.ctp:49
+msgid "View"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_index.ctp:62
+#: Plugin\users\View\Users\admin_index.ctp:59
+#: Plugin\users\View\Users\search.ctp:50
+#: View\Users\search.ctp:50
+msgid "Edit"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_index.ctp:72
+msgid "New User Detail"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:13
+#: Plugin\users\View\UserDetails\view.ctp:13
+msgid "User Detail"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:15
+#: Plugin\users\View\UserDetails\view.ctp:15
+msgid "Id"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:20
+#: Plugin\users\View\UserDetails\view.ctp:20
+#: Plugin\users\View\Users\admin_view.ctp:13
+#: Plugin\users\View\Users\view.ctp:13
+#: View\Users\view.ctp:13
+msgid "User"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:25
+#: Plugin\users\View\UserDetails\view.ctp:25
+msgid "Position"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:30
+#: Plugin\users\View\UserDetails\view.ctp:30
+msgid "Field"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:35
+#: Plugin\users\View\UserDetails\view.ctp:35
+msgid "Value"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:40
+#: Plugin\users\View\UserDetails\view.ctp:40
+#: Plugin\users\View\Users\admin_view.ctp:20
+#: Plugin\users\View\Users\view.ctp:20
+#: View\Users\view.ctp:20
+msgid "Created"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:45
+#: Plugin\users\View\UserDetails\view.ctp:45
+#: Plugin\users\View\Users\admin_view.ctp:25
+msgid "Modified"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:54
+#: Plugin\users\View\UserDetails\view.ctp:55
+msgid "Edit Detail"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:55
+#: Plugin\users\View\UserDetails\view.ctp:56
+msgid "Delete Detail"
+msgstr ""
+
+#: Plugin\users\View\UserDetails\admin_view.ctp:57
+#: Plugin\users\View\UserDetails\view.ctp:58
+msgid "New Detail"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:13
+#: Plugin\users\View\Users\admin_add.ctp:15
+msgid "Add User"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:18
+#: Plugin\users\View\Users\admin_edit.ctp:19
+#: Plugin\users\View\Users\admin_index.ctp:18
+#: Plugin\users\View\Users\admin_view.ctp:15
+#: Plugin\users\View\Users\search.ctp:18
+#: Plugin\users\View\Users\view.ctp:15
+#: View\Users\add.ctp:4
+#: View\Users\search.ctp:18
+#: View\Users\view.ctp:15
+msgid "Username"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:20
+#: View\Users\add.ctp:8
+msgid "E-mail (used as login)"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:21
+#: View\Users\add.ctp:9
+msgid "Must be a valid email address"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:22
+#: View\Users\add.ctp:11
+msgid "An account with that email already exists"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:24
+#: Plugin\users\View\Users\login.ctp:22
+#: View\Users\add.ctp:14
+#: View\Users\login.ctp:10
+msgid "Password"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:27
+#: View\Users\add.ctp:19
+msgid "Password (confirm)"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:29
+#: View\Users\add.ctp:22
+msgid "Terms of Service"
+msgstr ""
+
+#: Plugin\users\View\Users\add.ctp:31
+#: View\Users\add.ctp:23
+msgid "I have read and agreed to "
+msgstr ""
+
+#: Plugin\users\View\Users\admin_edit.ctp:15
+#: Plugin\users\View\Users\edit.ctp:15
+#: View\Users\edit.ctp:15
+msgid "Edit User"
+msgstr ""
+
+#: Plugin\users\View\Users\admin_edit.ctp:21
+#: Plugin\users\View\Users\admin_index.ctp:19
+#: Plugin\users\View\Users\login.ctp:20
+#: Plugin\users\View\Users\search.ctp:20
+#: View\Users\login.ctp:7
+#: View\Users\search.ctp:20
+msgid "Email"
+msgstr ""
+
+#: Plugin\users\View\Users\admin_edit.ctp:23
+msgid "Is Admin"
+msgstr ""
+
+#: Plugin\users\View\Users\admin_edit.ctp:25
+msgid "Active"
+msgstr ""
+
+#: Plugin\users\View\Users\admin_index.ctp:13
+#: Plugin\users\View\Users\index.ctp:13
+#: Plugin\users\View\Users\search.ctp:13
+#: View\Users\search.ctp:13
+msgid "Users"
+msgstr ""
+
+#: Plugin\users\View\Users\admin_index.ctp:15
+msgid "Filter"
+msgstr ""
+
+#: Plugin\users\View\Users\admin_index.ctp:20
+#: Plugin\users\View\Users\search.ctp:23
+#: View\Users\search.ctp:23
+msgid "Search"
+msgstr ""
+
+#: Plugin\users\View\Users\admin_index.ctp:49;52
+msgid "Yes"
+msgstr ""
+
+#: Plugin\users\View\Users\admin_index.ctp:49;52
+msgid "No"
+msgstr ""
+
+#: Plugin\users\View\Users\change_password.ctp:13
+#: Plugin\users\View\Users\edit.ctp:22
+#: View\Users\edit.ctp:22
+msgid "Change your password"
+msgstr ""
+
+#: Plugin\users\View\Users\change_password.ctp:14
+#: View\Users\change_password.ctp:1
+msgid "Please enter your old password because of security reasons and then your new password twice."
+msgstr ""
+
+#: Plugin\users\View\Users\change_password.ctp:18
+#: View\Users\change_password.ctp:5
+msgid "Old Password"
+msgstr ""
+
+#: Plugin\users\View\Users\change_password.ctp:21
+#: Plugin\users\View\Users\reset_password.ctp:9
+#: View\Users\change_password.ctp:8
+#: View\Users\reset_password.ctp:7
+msgid "New Password"
+msgstr ""
+
+#: Plugin\users\View\Users\change_password.ctp:24
+#: Plugin\users\View\Users\reset_password.ctp:12
+#: View\Users\change_password.ctp:11
+#: View\Users\reset_password.ctp:10
+msgid "Confirm"
+msgstr ""
+
+#: Plugin\users\View\Users\dashboard.ctp:13
+#: View\Users\dashboard.ctp:13
+msgid "Welcome"
+msgstr ""
+
+#: Plugin\users\View\Users\dashboard.ctp:14
+#: View\Users\dashboard.ctp:14
+msgid "Recent broadcasts"
+msgstr ""
+
+#: Plugin\users\View\Users\login.ctp:24
+#: View\Users\login.ctp:12
+msgid "Remember Me"
+msgstr ""
+
+#: Plugin\users\View\Users\login.ctp:25
+#: View\Users\login.ctp:14
+msgid "I forgot my password"
+msgstr ""
+
+#: Plugin\users\View\Users\request_password_change.ctp:14
+#: View\Users\request_password_change.ctp:1
+msgid "Please enter the email you used for registration and you'll get an email with further instructions."
+msgstr ""
+
+#: Plugin\users\View\Users\request_password_change.ctp:21
+#: View\Users\request_password_change.ctp:8
+msgid "Your Email"
+msgstr ""
+
+#: Plugin\users\View\Users\reset_password.ctp:2
+msgid "Reset your password"
+msgstr ""
+
+#: Plugin\users\View\Users\search.ctp:22
+#: View\Users\search.ctp:22
+msgid "Name"
+msgstr ""
+
+#: View\Layouts\default.ctp:79
+#: View\Users\add.ctp:25
+msgid "Sign up"
+msgstr ""
+
+#: View\Users\change_password.ctp:13
+#: View\Users\request_password_change.ctp:9
+msgid "Send new password"
+msgstr ""
+
+#: View\Users\reset_password.ctp:12
+msgid "Reset Password"
+msgstr ""
+
+#: Model\AppUser.php:validation for field username
+#: Plugin\users\Model\User.php:validation for field username
+msgid "Please enter a username."
+msgstr ""
+
+#: Model\AppUser.php:validation for field username
+#: Plugin\users\Model\User.php:validation for field username
+msgid "The username must be alphanumeric."
+msgstr ""
+
+#: Model\AppUser.php:validation for field username
+#: Plugin\users\Model\User.php:validation for field username
+msgid "This username is already in use."
+msgstr ""
+
+#: Model\AppUser.php:validation for field username
+#: Plugin\users\Model\User.php:validation for field username
+msgid "The username must have at least 3 characters."
+msgstr ""
+
+#: Model\AppUser.php:validation for field email
+#: Plugin\users\Model\User.php:validation for field email
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: Model\AppUser.php:validation for field email
+#: Plugin\users\Model\User.php:validation for field email
+msgid "This email is already in use."
+msgstr ""
+
+#: Model\AppUser.php:validation for field password
+#: Plugin\users\Model\User.php:validation for field password
+msgid "The password must have at least 6 characters."
+msgstr ""
+
+#: Model\AppUser.php:validation for field password
+#: Plugin\users\Model\User.php:validation for field password
+msgid "Please enter a password."
+msgstr ""
+
+#: Model\AppUser.php:validation for field temppassword
+#: Plugin\users\Model\User.php:validation for field temppassword
+msgid "The passwords are not equal, please try again."
+msgstr ""
+
+#: Model\AppUser.php:validation for field tos
+#: Plugin\users\Model\User.php:validation for field tos
+msgid "You must agree to the terms of use."
+msgstr ""
+
