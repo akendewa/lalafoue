@@ -19,7 +19,7 @@ class EventsController extends AppController {
     public $paginate = array('order' => array('Event.start_date' => 'DESC'));
 
     public function beforeFilter() {
-        $this->Auth->Allow('api_list', 'api_get');
+        $this->Auth->Allow('api_list', 'api_get', 'api_search');
         parent::beforeFilter();
     }
 

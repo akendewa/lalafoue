@@ -11,6 +11,7 @@
 
             echo $this->Html->css(array(
                 'reset',
+                'basic',
                 'timeline.css',
                 'application.css?1.1'
                 )
@@ -24,6 +25,7 @@
             );
             echo $this->Html->script(
                 array(
+                    'jquery.simplemodal.1.4.2.min.js',
                     'timeline-min.js',
                     'locale/fr.js',
                 ),
@@ -42,6 +44,62 @@
     </head>
     <body>
         <div class="container">
+            <div id="logo">Lalafou&eacute;</div>
+            <div id="slogan">Les faits et &eacute;v&egrave;nements marquants de l'histoire de la C&ocirc;te d'Ivoire</div>
+            <div id="buttons"><a href="#" onclick="$('#about').modal(); return false;">A propos</a> | <a target="_blank" href="http://www.akendewa.org/projets/contribuez-a-mettre-lhistoire-de-la-cote-divoire-en-ligne/">Contribuer</a></div>
+
+            <div id="about" style="display : none">
+                <p>
+                    Lalafou&eacute; est un projet open source de l'ONG <a href="http://www.akendewa.org">Akendewa</a>, dont le but est d'&eacute;tablir une frise chronologique de l'histoire de la C&ocirc;te d'Ivoire.
+                </p>
+                <p>De nombreux &eacute;v&egrave;nements ont marqu&eacute; l'histoire de notre beau pays, et Akendewa souhaite &agrave; travers <strong>lalafou&eacute;</strong> permettre au citoyen lambda d'en avoir connaissance.
+                <p>
+                    Lalafou&eacute; qui signifie <strong>Jadis</strong> en Baoul&eacute;, est aussi un projet communautaire : les donn&eacute;s sont recolt&eacute;es par des volontaires et sont aussi disponibles au grand public par le biais d'une API.
+                </p>
+                <p>Si vous souhaitez contribuer en ajoutant un &eacute;v&egrave;nement, veuillez remplir ce <a target="_blank" href="http://www.akendewa.org/projets/contribuez-a-mettre-lhistoire-de-la-cote-divoire-en-ligne/">formulaire</a> SVP.</p>
+                <hr />
+                <h2>Open Source</h2>
+                <p>Le code source de <strong>lalafou&eacute;</strong> est disponible gratuitement en ligne. <a href="https://github.com/akendewa/lalafoue">https://github.com/akendewa/lalafoue</a>
+                <hr />
+                <h2>B&eacute;n&eacute;voles</h2>
+                    <p>Ce projet est maintenu par cette &eacute;quipe de b&eacute;n&eacute;voles</p>
+                    <ul>
+                        <li><strong>Direction du projet: </strong> Jean-Patrick Ehouman</li>
+                        <li><strong>Collection de donn&eacute;es : </strong>Deborah Soko, Christel Bouat&eacute;l&eacute;</li>
+                        <li><strong>D&eacute;veloppement web & API : </strong> R&eacute;gis Bamba</li>
+                    </ul>
+                <hr />
+                <h2>API</h2>
+                <p>Les donn&eacute;es de lalafou&eacute; sont disponibles au grand public par le biais de son API. Les m&eacute;thodes suivantes sont disponibles :</p>                    
+                <h3>Lister tous les &eacute;v&egrave;nements : </h3>
+                <div>
+                    <strong>http://lalafoue.akendewa.org/api/events/list.json</strong>
+                </div>
+                <div>
+                <strong>http://lalafoue.akendewa.org/api/events/list.xml</strong>
+                </div>
+                <h3>Lire un &eacute;v&egrave;nements en particulier : </h3>
+                <div>
+                    <strong>http://lalafoue.akendewa.org/api/events/get/:id.json</strong>
+                </div>
+                <div>
+                    <strong>http://lalafoue.akendewa.org/api/events/get/:id.xml</strong>
+                </div>
+                <p><strong>:id</strong> repr&eacute;sente l'ID num&eacute;rique de l'&eacute;v&egrave;nement en question</p>
+                <h3>Effectuer une recherche :</h3>
+                <div>
+                    <strong>http://lalafoue.akendewa.org/api/events/search.json</strong>
+                </div>                
+                <div>
+                    <strong>http://lalafoue.akendewa.org/api/events/search.xml</strong>
+                </div>
+                <div>Param&egrave;tres</div>
+                <ul>
+                    <li>start_date : Date du debut de l'evenement. (Exemple : 1960,8,7 => 7 Aout 1960)</li>
+                    <li>end_date : Date de la fin de l'evenement. (Exemple : 2011,4,11 => 11 Avril 2011)</li>
+                    <li>keyword : Mot Cl&eacute;</li>
+                </ul>
+            </div>
             <?php echo $this->fetch('content'); ?>
         </div>
         

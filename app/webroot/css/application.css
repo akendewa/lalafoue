@@ -13,6 +13,32 @@ header {
     margin-bottom : 10px;
 }
 
+#logo {
+    font-size : 15px;
+    font-weight : bold;
+}
+#slogan {
+    font-size : 11px;
+    color : #333;
+    font-weight : bold;
+}
+
+#logo, #slogan, #buttons {
+    text-align : center;
+}
+
+#buttons {
+
+}
+
+#about p {
+    margin-bottom : 10px;
+}
+
+#about h2 {
+    font-size : 20px;    
+    margin-bottom : 5px;
+}
 .loading {
     background : transparent url('../img/ajax-loader.gif') no-repeat top center;
     margin-left : auto;
